@@ -11,6 +11,7 @@ import JsxR from './Component/JsxR';
 import PropsC from './Component/PropsC';
 import ProFR from './Component/PropFR'
 import InputUser from './Component/my';
+import Atul from './Component/Class';
 
 
 let obj = {
@@ -46,6 +47,7 @@ function App() {
       <PropsC fn="Atul " ln="chavan"></PropsC>
       <ProFR name="Atul Chavan" lang="Javascript"></ProFR>
       <InputUser />
+      <Atul/>
     </div>
   );
 }
